@@ -8,10 +8,11 @@ function esPositivo(num) {
    // Si el número es negativo ---> "Es negativo".
    // Si el número es 0, devuelve false.
    // Tu código:
-   if(numero === 0 ) return false;
-   if(numero > 0 ) return "es positivo"
-   if(numero < 0 ) return " es positivo"
-
+   var numero = 0
+   if( numero > 23 ) return "Es positivo"
+   if( numero < -2 ) return " Es negativo"
+   if( numero === 0 ) return false;
+   
 }
 
 function agregarSimboloExclamacion(str) {
@@ -25,14 +26,22 @@ function combinarNombres(nombre, apellido) {
    // Retorna "nombre" y "apellido" combinados en un mismo string pero separados por un espacio.
    // Ejemplo: ("Soy", "Henry") ---> "Soy Henry"
    // Tu código:
-   return "${nombre} ${apellido}"
+
+   var primera = "Soy " ;
+   var segunda = "Henry";
+{
+   console.log(primera + "" + segunda );
+}
 }
 
 function obtenerSaludo(nombre) {
    // Toma el string "nombre" y concatena otra string en la cadena para que tome la siguiente forma:
    // Ejemplo: "Martin" ---> "Hola Martin!"
    // Tu código:
-   return "hola $ {nombre}!" 
+   var primera = "Hola " ;
+   var segunda = "Martin!";
+
+   console.log(primera + "" + segunda );
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -66,9 +75,11 @@ function esVocal(letra) {
    // Si el usuario ingresa un string de más de un caracter debes retornar el mensaje: "Dato incorrecto".
    // Si no es vocal, tambien debe retornar "Dato incorrecto".
    // Tu código:
-   if (letra.length > 1 ) return "dato incorrecto "
-   if (letra !=="a" || letra !=="e" || letra !=="i" || letra !=="o" || letra !=="u" ) return "dato incorrecto"
-   return "es vocal" 
+ 
+   if (letra.length > 1 ) return "Dato incorrecto"
+   if (letra ==="a" || letra ==="e" || letra ==="i" || letra ==="o" || letra ==="u" ) 
+   return "Es vocal"
+   return "Dato incorrecto" 
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/

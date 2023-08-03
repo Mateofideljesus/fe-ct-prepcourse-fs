@@ -14,7 +14,7 @@ Para ejecutar los tests de las homeworks debes:
 
 2. Luego de que se hayan instalado las dependencias pueden comenzar a correr los tests.
 
--  Para ejecutarlos globalmente (es decir, el de todas las homeworks), ejecuta el comando:
+-  Para ejecutarlos globalmente (ens decir, el de todas las homeworks), ejecuta el comando:
 
 ```bash
     npm test
