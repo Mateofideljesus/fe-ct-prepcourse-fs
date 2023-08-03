@@ -8,10 +8,15 @@ function esPositivo(num) {
    // Si el número es negativo ---> "Es negativo".
    // Si el número es 0, devuelve false.
    // Tu código:
-   var numero = 0
-   if( numero > 23 ) return "Es positivo"
-   if( numero < -2 ) return " Es negativo"
-   if( numero === 0 ) return false;
+   if ( num==0) {
+      return false;
+   }
+ else if (num < 0){
+   return ("Es negativo");
+ }
+ else {
+   return("Es positivo");
+ }
    
 }
 
@@ -27,21 +32,14 @@ function combinarNombres(nombre, apellido) {
    // Ejemplo: ("Soy", "Henry") ---> "Soy Henry"
    // Tu código:
 
-   var primera = "Soy " ;
-   var segunda = "Henry";
-{
-   console.log(primera + "" + segunda );
-}
+ return nombre+" "+apellido
 }
 
 function obtenerSaludo(nombre) {
    // Toma el string "nombre" y concatena otra string en la cadena para que tome la siguiente forma:
    // Ejemplo: "Martin" ---> "Hola Martin!"
    // Tu código:
-   var primera = "Hola " ;
-   var segunda = "Martin!";
-
-   console.log(primera + "" + segunda );
+ return "Hola "+nombre+"!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
