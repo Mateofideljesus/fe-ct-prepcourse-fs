@@ -16,7 +16,11 @@ function mayoriaDeEdad(edad) {
    // Si tiene 18 años ó más debe retornar el string: "Allowed".
    // Caso contrario: "Not allowed".
    // Tu código:
-   return edad >= 18 ? "Allowed" : "Not allowed";   
+   if (edad >= 18 ){
+      return "Allowed"
+   }else{
+      return "Not allowed"
+   }  
 }
 
 function conection(status) {
@@ -94,8 +98,9 @@ function estaEnRango(num) {
    // Retornar true si "num" es menor que 50 y mayor que 20.
    // De lo contrario, retornar false.
    // Tu código:
-if ( num < 50 && num > 20) return true;
-return false ;
+
+   if ( num < 50 && num > 20) return true;
+   return false ;
 
 }
 
